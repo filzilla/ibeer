@@ -116,7 +116,6 @@ aside{
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  justify-content: space-between;
   background-color: #FFFFFF;
   margin-left: 140px;
   margin-bottom: 20px;
@@ -135,36 +134,50 @@ aside{
   flex-basis: 100%;
   box-shadow: 0px 1px darkgray;
   padding-bottom: 5px;
-
 }
 .date{
   flex-basis: 50%;
-font-size: .75em;
+  font-size: .75em;
 }
 .category{
   flex-basis: 50%;
   font-size: .75em;
-
 }
 h4{
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   flex-basis: 100%;
 }
-  .first-container{
-    flex-basis: 48%;
+.first-container{
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-basis: 100%;
   }
-  .blog-img{
-    flex-basis: 48%;
+.blog-img{
+    display: block;
     position: relative;
-    bottom: -230px;
+    float: right;
 
   }
 .primary-txt{
-display: block;
+flex-basis: 50%;
+padding: 2% 2% 6% 2%;
 font-family: 'Noto Serif';
 font-size: .90em;
 }
+
+
+.primary-blog{
+  display: block;
+  padding:2% 2% 6% 2%;
+}
+.primary-blog >p{
+  padding-bottom: 0px;
+}
+
+
 .icon-wrapper{
   background-color: #FAEBD7;
   color: white;
