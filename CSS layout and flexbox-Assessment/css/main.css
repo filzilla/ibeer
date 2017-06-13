@@ -25,7 +25,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: black;
-  padding-top: 45px;
+  padding-top: 25px;
 }
 a{
   text-decoration: none;
@@ -116,6 +116,7 @@ aside{
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
+  justify-content: space-between;
   background-color: #FFFFFF;
   margin-left: 140px;
   margin-bottom: 20px;
@@ -126,6 +127,29 @@ aside{
   font-family: 'Noto Serif';
   line-height: 2em;
   width: 500px;
+}
+.meta{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 100%;
+  box-shadow: 0px 1px darkgray;
+  padding-bottom: 5px;
+
+}
+.date{
+  flex-basis: 50%;
+font-size: .75em;
+}
+.category{
+  flex-basis: 50%;
+  font-size: .75em;
+
+}
+h4{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  flex-basis: 100%;
 }
   .first-container{
     flex-basis: 48%;
@@ -144,16 +168,19 @@ font-size: .90em;
 .icon-wrapper{
   background-color: #FAEBD7;
   color: white;
-  flex-basis: 25%;
+  flex-basis: 6%;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  position: relative;
+  bottom: -52px;
+  right: -210px;
 }
-.meta{
-  flex-basis: 48%;
 
-}
+
+
 .fa-fa-newspaper-o{
+  width: auto;
   flex-basis: 33%;
   order: 2;
 
@@ -198,8 +225,19 @@ font-size: .90em;
 }
 .blog-img{
   flex-basis: 100%;
-
 }
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  i{
+  	position: relative;
+    top: 5px;
+
+  }
+
 
 #yhact{
 
