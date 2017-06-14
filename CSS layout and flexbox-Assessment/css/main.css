@@ -91,10 +91,22 @@ width: 100%;
 }
 
 .blog-row{
-  flex-basis: 50%;
+  flex-basis: 40%;
   height: auto;
 }
+.main-container{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: flex-start;
+}
+.aside-container{
+  flex-basis: 40%;
+}
+
+
 aside{
+display: block;
+float: right;
   background-color: #FAEBD7;
   font-family: 'Josefin Sans';
   line-height: 2em;
@@ -104,9 +116,10 @@ aside{
   margin-left: 95px;
   padding: 25px;
   box-shadow: 1px 3px 5px black;
-  position: relative;
+
+/*  position: relative;
   left: 670px;
-  bottom: 2280px;
+  bottom: 2280px;   */
 }
 
 .item{
@@ -237,8 +250,8 @@ padding-bottom: 5%;
 
 
 #yhact{
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
 }
 .last-one-container{
   display: flex;
